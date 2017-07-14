@@ -7,17 +7,27 @@
 <p> The my passion is expressed through my love for the envirment, coding, tennis, my family, friencd and education.  I expanded my intrege for the envirmental issue by investing myself in Sierra club, this led to me taking on the club and becoming president.  This furthered my interest in having leadership roles a school and in my life.  I had to learn to take control of my own life and decide what I am going to let me effect me and what I would let go, because life is a journey filled with decisions that contribute to the neverending definition of an individual.  I love math and science so when I got the chance to nurture those interst in Girlswhocode I took it. Following passion where every it takes me is how I fould my self.  I found that you can't discribe your self in 3 words as the popular interview question would sugguest, but I found you can attempt to find yourself through infinte experinces in differnt surroundings, with different people and in different states of mind.  It is impossible to answer who you are but it is possible to discover some of the bits and pieces that make up who I am.  Tennis, sierra club, leadership and coding are my interests and they describe me but they arnt't who I am, I am who I because of so much more than that, my education, family, envirment, friends and eveyone who has inspired me puched me down, along with everything I have there rest of my life to discover.</p>
 <img> src="https://mail.google.com/mail/u/0/?ui=2&ik=7e266926b9&view=att&th=15ce69636d3e9034&attid=0.1&disp=safe&zw" style="width1200px;height;1200px aligned=center"/img>
 <P>We built to circut to light up LED lights.</P>
-  <head>
+ <head>
     <style>
       #map {
-        width: 100%;
         height: 400px;
-        background-color: grey;
-      }
+        width: 100%;
+       }
     </style>
   </head>
   <body>
-    <h3>Travel bucket list</h3>
+    <h3>My Google Maps Demo</h3>
     <div id="map"></div>
-  </body>
-</html>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
